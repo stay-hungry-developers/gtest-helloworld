@@ -22,4 +22,11 @@ g++ -std=c++0x ./src/main.cpp -lgtest -lgtest_main -o proj.out
 ./proj.out
 ```
 
+## Build by `cmake`
+```
+cd build
+cmake ..
+make
+./registerer_test
+```
 
