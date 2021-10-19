@@ -10,8 +10,16 @@ make
 sudo make install    # Install in /usr/local/ by default
 ```
 
-## How to run
+## How to build
 ```
 g++ -std=c++0x ./src/main.cpp -lgtest -lgtest_main -o proj
+./proj
 ```
+
+## Build by `make`
+```
+g++ -std=c++0x ./src/main.cpp -lgtest -lgtest_main -o proj.out
+./proj.out
+```
+
 
