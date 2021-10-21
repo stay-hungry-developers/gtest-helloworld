@@ -27,6 +27,12 @@ g++ -std=c++0x ./src/main.cpp -lgtest -lgtest_main -o proj.out
 cd build
 cmake ..
 make
+make test
+```
+
+or
+
+```
 ./registerer_test
 ```
 
